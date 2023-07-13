@@ -1,0 +1,24 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpbq_eT2El1IEsCktZ8rRfDers0nEqcPQtUg&usqp=CAU);
+    background-size: cover;
+}
+section{
+    text-align: center;
+}
+.game--container{
+    display:grid;
+    grid-template-columns: repeat(3,auto);
+    width: 300px;
+    margin:50px auto;
+}
+.cell{
+    font-family: "permanent marker",cursive;
+    width: 100px;
+    height: 100px;
+    border: 4px solid black;
+    cursor: pointer;
+    font-size: 60px;
+    line-height: 100px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbhW8O6L7lE1H_G8cbENAlcbLCKcnCCdn8Zw&usqp=CAU");
+}
